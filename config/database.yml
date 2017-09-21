@@ -1,0 +1,15 @@
+development:
+  adapter: postgresql
+  encoding: unicode
+  host: localhost
+  pool: 5
+  database: react-rails_development
+  username: postgres
+  password: root
+# test:
+#   database: react-rails_test
+
+# production:
+#   database: react-rails_production
+#   username: react-rails
+#   password: <%= ENV['REACT-RAILS_DATABASE_PASSWORD'] %>
